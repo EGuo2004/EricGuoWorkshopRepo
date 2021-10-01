@@ -1,1 +1,12 @@
+Supreme Greens - Cameron Nelson, Eric Guo, Qina Liu
+SoftDev
+K08 -- Python Virtual Env. Observations
+2021-09-30
 
+Source : https://docs.python.org/3/library/venv.html
+$python3 -m venv ~/blah creates a virtual environment in the current directory that holds different modules than the rest of the machine.
+
+Source: https://realpython.com/python-virtual-environments-a-primer/ 
+Virtual Environments matter for site packages, and not that much for system packages
+Python cant differentiate versions in site packages
+Virtual Environments are isolated for python projects
