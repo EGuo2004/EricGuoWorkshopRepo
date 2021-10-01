@@ -1,1 +1,28 @@
+Supreme Greens - Cameron Nelson, Eric Guo, Qina Liu
+SoftDev
+K08 - Comparing Python Code
+2021-09-30
+
+Notes
+Qina and Cameron were in the same group so their code was identical, their code was very similar to mine 
+Their code was very understandable
+random seemed to be the popular option to do the weighted results
+
+Other Groups:
+Yaying's group had reasonings behind why they did certain things which made me understand the thought process 
+Han's group is very similar to my group 
+Raymond's group was less compact with the code however had a very nice summary which was easier to read than comments, however were less informative about what specific code does.
+
+Questions:
+N/A
+
+Discoveries: 
+I mainly just learned how csv worked since I did not know anything about it previously
+
+Comments:
+N/A
+
+Concerns:
+N/A
+
 
