@@ -1,0 +1,13 @@
+The Nameless Duo - Patrick Ging(Chris) and Eric Guo(Kotori) 
+10-2-21
+K09
+
+Q0: I have not seen anything like this, however it looks as if they are running a function. 
+
+Q1: I have no clue. 
+
+Q2: print(__name__) prints to terminal.
+
+Q3: "__main__" was what was printed. The return value appears at the 127.0.0.1:5000/ .
+
+Q4: I have not seen similar constructs in any other language. 
