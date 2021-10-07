@@ -1,0 +1,6 @@
+The Nameless Team - Patrick Ging, Eric Guo, Hebe Huang
+
+foo is a file with no extension so it was rather curious. 
+
+When running the html file, everything ran as expected. However when running the plaintext file, we had to download said file. 
+
