@@ -1,0 +1,7 @@
+We seem to prefer making multiple functions for clarity and simplicity.
+The comments that we went with ended up being short, sweet and simple yet to the point which is probably for the best. However they are not overly descriptive. 
+We seem to not use overly descriptive variable names (x, y) as it was fastrer since we did not have that many variables
+
+EGO
+Compared to my own code, the final code we went with used thresholds for the first parsing of the dictionary and as such did not need a second and would effectively be more efficient. 
+
