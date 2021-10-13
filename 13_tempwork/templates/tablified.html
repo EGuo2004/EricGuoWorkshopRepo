@@ -11,19 +11,23 @@ K13 - To create a flask app that randomly chooses and displays an occupation bas
  </head>
 
  <body>
-{{heading}}
-<br>
+{{names}}<br>
+{{course}}<br>
+{{assignment}}<br>
+{{date}}<br>
 <br>
 {{tnpg}}
 <br>
 <br>
+{{chosenJob}}
+<br> <br>
 {% for item in collection %}
-     {{ item }}  {{collection[item]}}
+     {{ item }}  {{tab_space}} {{collection[item]}}% 
      <br>
     {% endfor %}
 
 <br>
-{{chosenJob}}
+
  </body>
 
 </html>

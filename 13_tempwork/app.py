@@ -20,27 +20,25 @@ def fileReader():
 
 # Choose random job from dictionary
 def randomJob(reader):
-    x = random.randint(0, 998)
+    x = random.randint(0, 1000)
     y = 0
     for i in reader:
         y += reader[i] * 10
         if y > x:
             return i
             break
-
+        
+@app.route("/")
+def homePage():
+    return("new phone, who dis?")
+    
 # Running the flask app with displayApp function
 @app.route("/occupyflaskst")
 def displayApp():
     fileReader()
-    return render_template('tablified.html',heading="Eric Guo SoftDev K13 - To create a flask app that randomly chooses and displays an occupation based on a template 10/8/21",
-                           title="Weighted Random Occupations Chooser",tnpg="Team Team : Alif Abdullah, Eric Guo, Shadman Rakib Period 2",collection=finalDict,chosenJob=("Chosen Job: " + str(randomJob(finalDict))))
-    
-    '''return ("Team Team - Alif Abdullah, Eric Guo, Shadman Rakib Period 2 <br><br>List of occupations: <br>" +
-        str(list(finalDict.keys())[:len(list(finalDict.keys()))-1]) +
-        "<br><br>Chosen Occupation: " + str(randomJob(finalDict)))
-    '''
+    return render_template('tablified.html',names="Eric Guo", course="SoftDev", assignment="K13 - To create a flask app that randomly chooses and displays an occupation based on a template", date="10/8/21",
+                           title="Weighted Random Occupations Chooser",tnpg="Team Team : Alif Abdullah, Eric Guo, Shadman Rakib Period 2",collection=finalDict,tab_space=": ", chosenJob=("Chosen Job: " + str(randomJob(finalDict))))
+
 
 app.debug = True
 app.run()
-
-
