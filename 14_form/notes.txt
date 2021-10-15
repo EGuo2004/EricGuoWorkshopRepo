@@ -1,0 +1,18 @@
+The Adjective Nouns -- Andrew Juang, Noakai Aronesty, Eric Guo
+SoftDev
+K14 -- Form and Function
+Oct 2021
+
+Predictions:
+-When you run the flask application, it will open the root directory function disp_loginpage.
+We think that this will display the template with the HTML form and you will be prompted to
+submit information and also print the request for input in the console. We assume it will
+display the loginpage as named by the function.
+-When you submit the username, we will see waaaa hooo haaa as it is displayed in
+the auth directory.
+
+Results:
+-When we ran it we were prompted to enter a username and once we did we were taken to the
+auth page.
+-The console initially prints the request args as an empty immutable dictionary, but then
+once we inputted information, the immutable dictionary fills with the information we inputted.
