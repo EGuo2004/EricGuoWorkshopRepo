@@ -1,7 +1,7 @@
 The Adjective Nouns -- Andrew Juang, Noakai Aronesty, Eric Guo
 SoftDev
 K14 -- Form and Function
-Oct 2021
+2021-10-14
 
 Predictions:
 -When you run the flask application, it will open the root directory function disp_loginpage.
