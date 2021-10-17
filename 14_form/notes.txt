@@ -16,5 +16,6 @@ Results:
 auth page.
 -The console initially prints the request args as an empty immutable dictionary, but then
 once we inputted information, the immutable dictionary fills with the information we inputted.
-- When we tried to mess around with get and post, get gave us our webpage and there was stuff 
-behind the initial URL. When we tried post, after we typed the username we got an error.
+-When we tried to mess around with get and post, get gave us our webpage and there was stuff
+behind the initial URL. When we tried post, after we typed the username we were not able to access
+the webpage.
