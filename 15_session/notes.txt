@@ -1,0 +1,12 @@
+The Adjective Nouns -- Andrew Juang, Noakai Aronesty, Eric Guo
+SoftDev
+K15 -- Sessions Greetings
+2021-10-18
+
+Coding Process Notes
+- What does create a session where username is stored mean?
+- As expected, we could take request.args and use conditionals to hard code certain passwords
+- What other request types are there?
+- It took us a couple minutes to figure out how to change the name on the button for logout button
+- How do we make an if statement in HTML to make it so our error message template isn't always noticable in our login screen?
+
