@@ -10,3 +10,19 @@ Coding Process Notes
 - It took us a couple minutes to figure out how to change the name on the button for logout button
 - How do we make an if statement in HTML to make it so our error message template isn't always noticable in our login screen?
 
+Browser Debug Page (Inspect Element)
+- Find Cookies (chrome) by going to "Application -> Cookies" and check dropdown
+- All the html in the login page is shown when the website is first viewed
+  - Some bodies are collapsed and can be opened with drop-down arrows (eg. ```<body>...</body>```, ```<head>...</head>```, ```<form>...</form>```)
+  - Interestingly (and definitely fortunately) all documentation and comments are shown
+  - The html is automatically indented and formatted so it is easy to read in the dev console, even if it is not in the <template>.html
+
+Dev Console
+- Tells you whether GET or POST was used
+- Shows the url of the reested page, excluding the localhost
+- GET requests for routes other than the default "/" route are highlighted and show the full url including the extra GET characters
+
+Intertoobz Used
+- https://lazaroibanez.com/difference-between-the-http-requests-post-and-get-3b4ed40164c1#:~:text=GET%20is%20used%20for%20viewing,to%20insert%2Fupdate%20remote%20data.
+- https://runestone.academy/runestone/books/published/webfundamentals/Flask/sessions.html
+- https://flask.palletsprojects.com/en/2.0.x/quickstart/#redirects-and-errors
