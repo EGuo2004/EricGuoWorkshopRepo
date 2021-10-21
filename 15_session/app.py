@@ -3,57 +3,63 @@
 # K15 -- Sessions Greetings
 # 2021-10-18
 
-from flask import Flask             #facilitate flask webserving
-from flask import render_template   #facilitate jinja templating
-from flask import request           #facilitate form submission
+from os import urandom
+from flask import Flask, render_template, request, session, redirect, url_for
 
-#the conventional way:
-#from flask import Flask, render_template, request
+# Flask app instance
+app = Flask(__name__)
 
-app = Flask(__name__)    #create Flask object
+# Secret key for session
+app.secret_key = urandom(32)
 
 @app.route("/", methods=['GET', 'POST'])
 def disp_loginpage():
-    print("\n\n\n")
-    print("***DIAG: this Flask obj ***")
-    print(app)
-    print("***DIAG: request obj ***")
-    print(request)
-    print("***DIAG: request.args ***")
-    print(request.args)
-    #print("***DIAG: request.args['username']  ***")
-    #print(request.args['username'])
-    print("***DIAG: request.headers ***")
-    print(request.headers)
-    return render_template( 'login.html' )
+    ''' Display login page if there is no username in session, else display the
+        response with the session username passed in.'''
 
+    # Renders response if there is a user logged in.
+    if 'username' in session:
+        return render_template('response.html',username=session['username'])
+    return render_template('login.html')
 
-@app.route("/auth", methods=['GET', 'POST'])
+@app.route("/auth", methods=['GET','POST'])
 def authenticate():
-    print("\n\n\n")
-    print("***DIAG: this Flask obj ***")
-    print(app)
-    print("***DIAG: request obj ***")
-    print(request)
-    print("***DIAG: request.args ***")
-    print(request.args)
-    #print("***DIAG: request.args['username']  ***")
-    #print(request.args['username'])
-    print("***DIAG: request.headers ***")
-    print(request.headers)
-    if request.args['username'] != 'eric' and request.args['password'] != 'guo': #if both inputs are wrong tells them both are wrong
-        return render_template('login.html',input='Username and password are ')
-    elif request.args['username'] != 'eric': #if only username is wrong, tell them only username is wrong
-        return render_template('login.html',input='Username is ')
-    elif request.args['password'] != 'guo': #if only password is wrong, tell them only password is wrong
-        return render_template('login.html',input='Password is ')
-    else:
-        return render_template('response.html',username=request.args['username'], method=request.method)  #response to a form submission
+    ''' Checks whether method is get, post. If get method, then redirect to
+        loginpage. If post, then authenticate the username and password, rendering
+        the error page if incorrect and the response.html if correct username/pass.'''
 
+    # Variables
+    method = request.method
+    username = request.form.get('username')
+    password = request.form.get('password')
 
+    # Get vs Post
+    if method == 'GET':
+        return redirect(url_for('disp_loginpage'))
+    if method == 'POST':
+        # Displays corresponding error message
+        if username != 'eric' and password != 'guo':
+            return render_template('login.html',input='Username and password are ')
+        elif username != 'eric':
+            return render_template('login.html',input='Username is ')
+        elif password != 'guo':
+            return render_template('login.html',input='Password is ')
+        else:
+            session['username'] = 'eric'
+            return render_template('response.html',username=session['username'])
 
+@app.route("/logout")
+def logout():
+    ''' Logout user by deleting user from session dict. Redirects to loginpage'''
 
-if __name__ == "__main__": #false if this file imported as module
-    #enable debugging, auto-restarting of server when this file is modified
+    # Delete user. This try... except... block prevent an error from ocurring when the logout page is accessed from the login page
+    try:
+        session.pop('username')
+    except KeyError:
+        return redirect(url_for('disp_loginpage'))
+    # Redirect to login page
+    return redirect(url_for('disp_loginpage'))
+
+if __name__ == "__main__":
     app.debug = True
     app.run()
