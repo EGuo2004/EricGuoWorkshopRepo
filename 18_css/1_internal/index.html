@@ -27,8 +27,9 @@
   }
 
   #Spacing {
-    column-count: 2;
-    column-rule-width: 10px;
+    position: absolute; 
+    left:20px; 
+    top:140px;
   }
 
   h3 {
@@ -56,11 +57,17 @@
   }
 
   #copyright {
-    padding: 10px;
-    text-align: center; color: gray;
+    padding: 10px; 
+    color: gray;
     background-color: #606060;
     font-size: large;
     text-align:right;
+  }
+  
+  #Spacing2 {
+    position: absolute;
+    left:20px;
+    top: 70px;
   }
   </style>
 
@@ -68,13 +75,16 @@
   <body>
     <div id="Coloring">
     <h1>h1 foo </h1>
-    <div id = "Spacing">
+    <div id="Spacing1">
     <h3>nav foo</h3>
     <ul>
+    <div id = "Spacing">
       <li><a href="">dis</a></li>
       <li><a href="">dat</a></li>
       <li><a href="">de udda ting</a></li>
+      </div>
     </ul>
+    </div>
      <div id="move">
     <h2>main foo heading</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. Nisl condimentum id venenatis a condimentum vitae sapien. Diam maecenas ultricies mi eget mauris pharetra et ultrices. Et tortor at risus viverra adipiscing.
@@ -84,7 +94,6 @@
       <br>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit. Arcu dictum varius duis at consectetur lorem donec. Ullamcorper eget nulla facilisi etiam dignissim diam. Orci porta non pulvinar neque laoreet.
       </div>
-    </div>
     <div id="copyright">
       Copyright © 2021 Eric Guo + Michael Borczuk
     </div>
