@@ -1,0 +1,10 @@
+Softlocked - Eric Guo and Michael Borczuk
+SoftDev
+K19 - Nasa RESTApi Stuff
+2021-11-23
+time spent: 0.6 hours
+
+Notes:
+- .read() is a necessary method to put the data into a string that can be converted to a readable, JSON format
+- it is very easy to change api keys, as you can just edit the key_nasa file
+- JSON responses are essentially just python dictionaries
