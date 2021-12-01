@@ -1,2 +1,12 @@
+Softlocked - Eric Guo and Michael Borczuk
+SoftDev
+K22 -- Bootstrap
+2021-12-01
+time spent: 0.6 hours
+
 - callout primary makes big bar like j-tron
-- 
+- I dont know how to make the grid horizontal
+- large and small change size
+- primary is color, changing to secondary made it gray
+
+- Bootstrap is better
