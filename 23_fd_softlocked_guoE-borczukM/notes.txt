@@ -19,4 +19,4 @@ Q0
 We did not have to consult any resources apart from asking the other duo to clarify a few things.
 
 Q1
-We like Bootstrap better, because it seems to be simpler to understand and use. This could be because we actually looked at the documentation, though. In addition, it seems like Bootstrap has more functionality than Foundation does. 
+We like Bootstrap better, because it seems to be simpler to understand and use. This could be because we actually looked at the documentation, though. In addition, it seems like Bootstrap has more functionality than Foundation does. Foundation does seem to have more straight forward method names, however beside that, it was rather confusing on how to operate it effectively, though that could also just be because we did not look at documentation.
