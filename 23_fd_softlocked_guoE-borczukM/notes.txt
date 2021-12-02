@@ -1,12 +1,22 @@
 Softlocked - Eric Guo and Michael Borczuk
 SoftDev
-K22 -- Bootstrap
-2021-12-01
-time spent: 0.6 hours
+K23 -- Foundation vs Bootstrap
+2021-12-02
+time spent: 0.8 hours
 
+DISCO
 - callout primary makes big bar like j-tron
-- I dont know how to make the grid horizontal
 - large and small change size
 - primary is color, changing to secondary made it gray
+- You can style items to look like links, or you can actually link different pages.
 
-- Bootstrap is better
+QCC
+- How do you make the grid horizontal?
+- How do you add different colors to the grid boxes?
+- Does the stuycs website use a framework (I'd imagine not)?
+
+Q0
+We did not have to consult any resources apart from asking the other duo to clarify a few things.
+
+Q1
+We like Bootstrap better, because it seems to be simpler to understand and use. This could be because we actually looked at the documentation, though. In addition, it seems like Bootstrap has more functionality than Foundation does. 
