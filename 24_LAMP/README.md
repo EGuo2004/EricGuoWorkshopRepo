@@ -1,4 +1,4 @@
-# how-to :: Provision a Digital Ocean Droplet 
+# how-to :: Provision a Digital Ocean Droplet with UBuntu and Apache 
 ---
 ## Overview
 
