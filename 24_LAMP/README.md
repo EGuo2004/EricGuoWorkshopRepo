@@ -1,4 +1,4 @@
-# how-to :: DO THE THING
+# how-to :: Provision a Digital Ocean Droplet 
 ---
 ## Overview
 
