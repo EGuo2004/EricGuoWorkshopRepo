@@ -8,22 +8,12 @@
 ### Prerequisites:
 - Obtain the github student package (No money should be spent) 
 
-1. Step blah blah blah, and/or...
-1. Step, with `inline code`, and/or...
-1. Step, with
-    ```
-    generic code block or terminal command
-    ```
-   and/or...
-    ```javascript
-    var foo = "this that JS tho";
-    ```
-   and/or...
-    ```python
-    print("this that Python tho")
-    ```
-   and/or...
-1. Step, with [hyperlink](https://xkcd.com)s...
+1. Sign up with debit card/credit card/pay pal
+2. click deploy a virtual machine
+3. Choose ubuntu, Basic, Regular intel, 5$ per month, choose new york 1
+4. For authentication set up SSH keys
+5. Generate an SSH Key and dont name it the same thing as github, for id_rsa use id_digital_ocean
+6. Go to droplets on your left and click on your new droplet, click access and then you launch
 
 
 ### Resources
