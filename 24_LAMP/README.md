@@ -12,8 +12,9 @@
 2. click deploy a virtual machine
 3. Choose ubuntu, Basic, Regular intel, 5$ per month, choose new york 1
 4. For authentication set up SSH keys
-5. Generate an SSH Key and dont name it the same thing as github, for id_rsa use id_digital_ocean
-6. Go to droplets on your left and click on your new droplet, click access and then you launch
+5. Generate an SSH Key and dont name it the same thing as github
+6. Choose all the free stuff since they are probably useful
+7. Go to droplets on your left and click on your new droplet, click access and then you launch
 
 
 ### Resources
