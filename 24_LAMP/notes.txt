@@ -1,4 +1,6 @@
-Eric Guo 
+Latte -- Eric Guo, Cameron Nelson, Daniel Sooknanan
 Observations
 1. Why is the update screen bright purple... 
 2. Root ssh worked at first, not sure why but its fixed hopefully 
+3. Creating a new user requires a lot of information, what would that information be used for?
+4. Wasn't allowed to SSH from droplet itself 
