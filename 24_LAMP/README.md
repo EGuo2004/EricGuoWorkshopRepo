@@ -15,6 +15,12 @@
 5. Generate an SSH Key and dont name it the same thing as github
 6. Choose all the free stuff since they are probably useful
 7. Go to droplets on your left and click on your new droplet, click access and then you launch
+8. Run 
+```
+sudo apt install apache2
+```
+9. Follow https://www.digitalocean.com/community/tutorials/how-to-create-a-new-sudo-enabled-user-on-ubuntu-18-04-quickstart to create a new user
+
 
 
 ### Resources
