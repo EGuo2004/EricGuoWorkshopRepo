@@ -1,4 +1,4 @@
-# how-to :: DO THE THING
+# how-to :: Provision a Digital Ocean Droplet with UBuntu and Apache 
 ---
 ## Overview
 
@@ -8,27 +8,32 @@
 ### Prerequisites:
 - Obtain the github student package (No money should be spent) 
 
-1. Step blah blah blah, and/or...
-1. Step, with `inline code`, and/or...
-1. Step, with
-    ```
-    generic code block or terminal command
-    ```
-   and/or...
-    ```javascript
-    var foo = "this that JS tho";
-    ```
-   and/or...
-    ```python
-    print("this that Python tho")
-    ```
-   and/or...
-1. Step, with [hyperlink](https://xkcd.com)s...
+1. Sign up with debit card/credit card/pay pal
+2. click deploy a virtual machine
+3. Choose ubuntu, Basic, Regular intel, 5$ per month, choose new york 1
+4. For authentication set up SSH keys
+5. Generate an SSH Key and dont name it the same thing as github
+6. Choose all the free stuff since they are probably useful
+7. Go to droplets on your left and click on your new droplet, click access and then you launch
+8. Run 
+```
+sudo apt install apache2
+```
+9. Follow https://www.digitalocean.com/community/tutorials/how-to-create-a-new-sudo-enabled-user-on-ubuntu-18-04-quickstart to create a new user
+
 
 
 ### Resources
-* thing1
-* thing2
+* https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04  
+* https://www.digitalocean.com/community/questions/error-permission-denied-publickey-when-i-try-to-ssh  
+* https://www.digitalocean.com/community/questions/secure-ubuntu-server-for-non-root-user-using-only-ssh-keys?answer=22286  
+* https://www.digitalocean.com/community/tutorials/how-to-create-a-new-sudo-enabled-user-on-ubuntu-18-04-quickstart  
+* https://www.digitalocean.com/docs/droplets/how-to/  
+* https://www.digitalocean.com/community/questions/error-permission-denied-publickey-when-i-try-to-ssh?answer=44730  
+* https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh/putty/  
+* https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-openssh/  
+* https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh/openssh/  
+
 
 ---
 
