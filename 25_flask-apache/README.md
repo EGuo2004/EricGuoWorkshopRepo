@@ -41,7 +41,7 @@ Flask is not built to serve -- on its own -- persistent or high-traffic sites. A
    	app.run()
    ```
    ```
-   sudo nano flaskapp.wsgi 
+   sudo nano test1.wsgi 
    ```
    ```
    #!/usr/bin/python
