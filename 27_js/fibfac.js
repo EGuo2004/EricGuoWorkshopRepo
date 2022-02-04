@@ -49,4 +49,6 @@
 
   var y = factorial(5);
   console.log(y);
+  var z = fib(6);
+  console.log(z);
 //Do whatever you think is needed. Think: S I M P L E.   Think: S M A R T.
