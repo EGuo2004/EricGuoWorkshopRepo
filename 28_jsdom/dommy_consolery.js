@@ -73,6 +73,7 @@ var red = function() {
   }
 };
 
+red();
 
 var stripe = function() {
   var items = document.getElementsByTagName("li");
@@ -124,3 +125,13 @@ let gcd = (a, b) => {
       return gcdNum;
   }
 }
+
+let buton = () => {
+  var b = document.getElementByID("b");
+  b.addEventListener('click',addItem("ButonTest"));
+}
+
+var y = factorial(5);
+console.log(y);
+var z = fib(6);
+console.log(z);
