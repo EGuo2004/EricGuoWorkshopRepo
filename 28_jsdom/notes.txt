@@ -1,0 +1,18 @@
+Team Doorstuck :: Andy Lin and Eric Guo
+SoftDev pd2
+K28 -- DOMfoolery
+2022-02-09
+
+DISCO
+-----------------------------------------------------------------
+* Must put js into the <script> tags to work not sure if theres another way
+* direct programming best for GCD
+* Waow writing this down helps a lot
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* is there a better way to input the js for DOM porpoise?
+* Is there a way to generate tests for us? Like a tester file did in java?
+=================================================================
+
