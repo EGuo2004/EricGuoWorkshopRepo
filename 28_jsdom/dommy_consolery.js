@@ -135,3 +135,5 @@ var y = factorial(5);
 console.log(y);
 var z = fib(6);
 console.log(z);
+var w = gcd(10, 25);
+console.log(w);
