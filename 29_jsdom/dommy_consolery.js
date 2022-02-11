@@ -133,39 +133,36 @@ button click triggers its function, and causes the result to be displayed on the
 let fibIndex = 1;
 
 let fibButton = function() {
-  let dasbut = document.getElementById("b");
+  let dasbut = document.getElementById("bfib");
   let fibDisplay = function(){
-    addListItem("fiblist", fib(fibIndex));
+    addListItem("fiblist", "fib(" + fibIndex + ") = " + fib(fibIndex));
     fibIndex++;
   }
   dasbut.addEventListener('click', fibDisplay);
 }
 fibButton()
 
-let facIndex = 1;
-
+let factIndex = 0;
 let factButton = function() {
-  let dasbut = document.getElementById("c");
+  let dasbut = document.getElementById("bfact");
   let factDisplay = function(){
-    addListItem("faclist", fact(facIndex));
-    facIndex++;
+    addListItem("factlist", factIndex + "! = " + fact(factIndex));
+    factIndex++;
   }
   dasbut.addEventListener('click', factDisplay);
 }
 factButton()
 
-let a = Math.floor(Math.random() * 20);
-let b = Math.floor(Math.random() * 20);
 let gcdButton = function() {
   let dasbut = document.getElementById("bgcd");
   let gcdDisplay = function(){
+    let a = Math.floor(Math.random() * 100);
+    let b = Math.floor(Math.random() * 100);
     addListItem("gcdlist", "gcd of " + a + " and " + b + " is " + gcd(a, b));
   }
   dasbut.addEventListener('click', gcdDisplay);
 }
 gcdButton()
-
-
 
 let fibEx = fib(10);
 addItem("The 10th fibonacci number is " + fibEx);
@@ -174,4 +171,4 @@ let factEx = fact(10);
 addItem("10! = " + factEx);
 
 let gcdEx = gcd(990, 99);
-addItem("GCD of 990 and 99 is " + gcdEx);
+addItem("GCD of 990 and 99 is " + gcdEx); //pog

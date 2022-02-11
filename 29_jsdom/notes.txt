@@ -1,7 +1,7 @@
-Team ME :: Michelle Lo and Eric Guo
+Team HAM :: Hebe Huang, Andrew Juang, Michelle Lo
 SoftDev pd2
-K29 -- DOMfoolery++
-2022-02-10
+K28 -- Getting more comfortable with the dev console and the DOM
+2022-02-08t
 
 DISCO
 -----------------------------------------------------------------
@@ -18,6 +18,34 @@ QCC
 -----------------------------------------------------------------
 * Why is an anonymous fxn called an anonymous function?
 * This might be helpful: http://software.hixie.ch/utilities/js/live-dom-viewer/
-* Is there a better way to do this, this seems inefficient?
-* How do we make it generate a new number every time we hit the button(As in input)?
+=================================================================
+
+Team ME :: Michelle Lo and Eric Guo
+SoftDev pd2
+K29 -- DOMfoolery++
+2022-02-10
+DISCO
+-----------------------------------------------------------------
+* New functions learned!
+dasbut.addEventListener(‘click’, fxnName)
+
+document.createElement(<HTML Tag Name>)
+element.setAttribute(<name>, <value>)
+element.getAttribute(<name>)
+
+element.remove()
+element.innerHTML
+element.appendChild(<Element>)
+element.addEventListener(<Event>, <Function>)
+
+* remember to call the function for the button!
+* be careful on duplicating button ID names in order to prevent errors in using the same buttons for different functions
+* fib(3), fact(193013), etc. will not work as a parameter for addEventListener(a, b).
+* for events for addEventListener, check the DOM API (bit.ly/api_dom)! 
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* Can this be done more efficiently?
+* Make sure you have your console on... and pay close attention to the error log!
 =================================================================
