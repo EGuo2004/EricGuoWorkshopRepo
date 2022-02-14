@@ -11,19 +11,20 @@ let mode = "rect";
 let toggleMode = (e) => {
     console.log("toggle...");
     if(mode=="rect") {
-        mode=="circ";
+        mode="circ";
     } else {
         mode="rect";
     }
 }
 
 let drawRect = (e) => {
-    var mouseX = e.offsetX;
-    var mouseY = e.offsetY;
+    var mouseX = e.clientX-e.offsetX;
+    var mouseY = e.clientY-e.offsetY;
     console.log("mouseclick registered at ", mouseX, mouseY);
     beginPath();
-    stroke();
-    fill();
+    fillstyle="red";
+    fillrect(mouseX,mouseY,50,75);
+    console.log(e);
 }
 
 //var drawCircle = function(e) {
