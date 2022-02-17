@@ -28,31 +28,41 @@ let clear = (e) => {
   ctx.clearRect(0, 0, c.offsetWidth, c.offsetHeight);;
 };
 
-
 let radius = 0;
 let growing = true;
-
 
 //let drawDot = function() {
 let drawDot = () => {
   console.log("drawDot invoked...")
 
   clear(c);
-  requestID = window.requestAnimationFrame(drawDot);
-  console.log(requestID);
   window.cancelAnimationFrame(requestID);
+  if (growing) {
+    radius += 1;
+  } else {
+    radius -= 1;
+  }
+  ctx.beginPath();
+  ctx.arc(c.offsetHeight / 2, c.offsetWidth / 2, radius, 0, 360);
+  ctx.fillStyle = "orange"
+  ctx.fill();
+  console.log(requestID);
+  requestID = window.requestAnimationFrame(drawDot);
+  if (radius >= c.offsetHeight / 2) {
+    growing = false
+  } else if (radius <= 0){
+    growing = true
+  }
 
   /*
     ...to
     Wipe the canvas,
     Repaint the circle,
-
     ...and somewhere (where/when is the right time?)
     Update requestID to propagate the animation.
     You will need
     window.cancelAnimationFrame()
     window.requestAnimationFrame()
-
    */
 };
 
@@ -61,7 +71,7 @@ let drawDot = () => {
 let stopIt = () => {
   console.log("stopIt invoked...")
   console.log( requestID );
-    window.cancelAnimationFrame(requestID);
+  window.cancelAnimationFrame(requestID);
 };
 
 
