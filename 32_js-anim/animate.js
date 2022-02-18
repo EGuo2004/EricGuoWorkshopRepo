@@ -12,7 +12,7 @@ var dvdButton = document.getElementById("DVD");
 var ctx = c.getContext("2d");
 
 //set fill color to team color
-
+ctx.fillStyle="magenta";
 var requestID;  //init global var for use with animation frames
 
 //var clear = function(e) {
@@ -50,6 +50,7 @@ var drawDot = () => {
   requestID = window.requestAnimationFrame(drawDot); 
   //draws the circle
   ctx.beginPath();
+  ctx.fillstyle="red";
   ctx.arc(300,300,radius,0,2 * Math.PI);
   ctx.fill();
   ctx.stroke();
@@ -76,6 +77,7 @@ var dvd = () => {
   requestID = window.requestAnimationFrame(dvd);
   var img = new Image();
   img.src = 'logo_dvd.jpg'
+  ctx.fillstyle="red";
   ctx.drawImage(img,dvdx,dvdy,60,40);
 }
 var dvd_helper = () => {

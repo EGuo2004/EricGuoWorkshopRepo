@@ -1,0 +1,9 @@
+Rayat Roy, Eric Guo
+SoftDev pd2
+K32 -- Canvas based JS animation
+2022-02-17r
+
+*Displaying the image ended up just being two lines and was quite easy
+*Simultaneous programming worked well, I looked at the docs to get the image to display and resize, while Eric made a dot bounce off the walls.
+*We were not careful with if statement conditionals initially, always be careful for those
+*I wonder if it is possible to get an image from the html file, and use that in the program.
