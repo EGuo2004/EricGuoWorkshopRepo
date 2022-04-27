@@ -1,0 +1,11 @@
+Eric Guo
+Period 2
+K34 -- Another Perspective
+4/26/22
+
+- Data dictated by app with MongoDB, not the other way around
+- Application and Data evolve together
+- Relationship between data and entities helps designing the application
+-Q : What is the most effective way to update schema version
+- Mix and match to your needs
+- make sure your data model is flexible
