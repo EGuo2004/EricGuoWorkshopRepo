@@ -1,0 +1,10 @@
+Eric Guo
+Period 2
+K35 -- Another Perspective
+5/2/22
+- MongoDB is no sequel database
+- no sequel database is storing organized data, but not in rows and cols
+- Data is stored in documents
+- Documents = way to store data in field value pairs - "name" : "Eric"
+- Clusters are a group of servers storing data while a replica set stores duplicates of the data so if one machine goes down the rest still work
+- C - data took a good while to load, not sure the reason or if thats normal 

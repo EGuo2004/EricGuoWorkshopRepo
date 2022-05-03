@@ -1,0 +1,11 @@
+Eric Guo
+Period 2
+K36 -- Another Perspective
+5/2/22
+- View or Update you use JSON (Javascript standard object notation), start and end {} seperate key and val with :, seperate pairs with , and keys must be in quotes
+- JSON is familiar and easy to learn, but slow
+- BSON is binary + JSON, speed, space flexibility
+- BSON not readable
+- JSON: mongoimport mongoexport
+- BSON: mongorestore mongodump
+- mongodb+srv: //user:password@clusterURI.mongodb.net/database
