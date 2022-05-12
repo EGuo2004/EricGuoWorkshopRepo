@@ -1,0 +1,10 @@
+Eric Guo
+Period 2
+K39 -- Another Perspective
+5/11/22
+
+- Agg framework better than MQL
+- sort and limit cursor methods, should use together, sort first then limit
+- Index faster, special data structure that lets you find stuff faster
+- Data used together stored together
+- Upsert = update + insert, 

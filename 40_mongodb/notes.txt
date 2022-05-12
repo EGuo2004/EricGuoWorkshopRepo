@@ -1,0 +1,10 @@
+Eric Guo
+Period 2
+K39 -- Another Perspective
+5/11/22
+
+- Teams and billing for advance stuff
+- Realms let you not worry about servers
+- Billing at org level
+- dont touch admin local config
+- Mongo scans data to get collections

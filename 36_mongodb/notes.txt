@@ -9,3 +9,4 @@ K36 -- Another Perspective
 - JSON: mongoimport mongoexport
 - BSON: mongorestore mongodump
 - mongodb+srv: //user:password@clusterURI.mongodb.net/database
+- it = iterate

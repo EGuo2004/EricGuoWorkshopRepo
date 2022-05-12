@@ -2,3 +2,12 @@ Eric Guo
 Period 2
 K37 -- Another Perspective
 5/8/22
+- _id is unique for identification purposes
+- _id required in every document
+- objectid is default for _id
+- cannot insert docs with same _id, if no _id given, random one is given
+- ordered: false makes sure every entry is looked at 
+- easy to make new collection
+- updateOne() vs updateMany()
+- Only use one versions when searching by _id
+- 

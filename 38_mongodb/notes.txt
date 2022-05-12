@@ -2,3 +2,11 @@ Eric Guo
 Period 2
 K38 -- Another Perspective
 5/8/22
+
+- lte gte le gt to get data with specific requirements
+- Logic operators work as expected
+- '$' important for accessing query language
+- size for size of array, $all for what you want to see in that array
+- Projection to say what should or shouldn't be in the stuff you are looking for
+- Dot notation to specify position in arrays of docs
+- 
